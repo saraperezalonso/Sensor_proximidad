@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         if(proximitySensor == null){
             Log.e(TAG, "No tiene sensor de proximidad")
+            Log.e(TAG, "Prueba github")
             finish()
         }
 
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         //en que carpetas hay cosas, propiedades comunes boton, traduccion, leer el tema 1, funciones con operaciones, cuando son nulas
         //asset studio
+        //esto es una prueba para git
         sensorManager.registerListener(
             proximitySensorListener, proximitySensor, 2 * 1000 * 1000
         )
